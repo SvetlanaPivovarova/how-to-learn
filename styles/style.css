@@ -8,6 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
+  font-weight: normal;
 }
 
 .header {
@@ -33,18 +34,19 @@
   width: 730px;
   font-size: 102px;
   line-height: 96px;
-  margin-left: 64px;
+  font-weight: 600;
+  margin: 0 0 0 64px;
   z-index: 3;
 }
 
 .header__subtitle {
   width: 388px;
-  font-size: 18px;
-  list-style: 25px;
+  line-height: 25px;
   position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 2;
+  margin: 0;
 }
 
 .header__link {
@@ -87,7 +89,6 @@
 .two-columns__brief {
   color: #2f80ed;
   width: 175px;
-  font-size: 18px;
   line-height: 1.2;
   margin: 0;
 }
@@ -108,7 +109,7 @@
 }
 
 .two-columns__span-accent {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 .digits {
@@ -120,7 +121,7 @@
   color: black;
   background-color: white;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   margin: 0 auto 20px;
 }
@@ -155,12 +156,11 @@
 
 .table__heading_theme_light {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 600;
   margin: 0;
 }
 
 .table__text_theme_light {
-  font-size: 18px;
   line-height: 1.2;
   margin-top: 20px;
   margin-bottom: 0;
@@ -182,7 +182,7 @@
   margin: auto;
   text-align: center;
   font-size: 120px;
-  font-weight: bolder;
+  font-weight: 600;
   padding-top: 100px;
 }
 
@@ -213,7 +213,7 @@
 .section-title_theme_dark{
   width: 60%;
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   color: white;
   margin: 90px auto 20px;
@@ -242,12 +242,11 @@
 
 .table__heading_theme_dark {
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 600;
   margin: 0;
 }
 
 .table__text_theme_dark {
-  font-size: 18px;
   line-height: 1.2;
   margin-top: 20px;
   margin-bottom: 0;
@@ -263,11 +262,10 @@
 }
 
 .footer {
-  min-height: 450px;
+  min-height: 250px;
   background-color: #1f1f1f;
   color: #ffffff;
   padding: 60px 0 40px;
-  margin: 0 auto 0;
   position: relative;
 }
 
@@ -275,6 +273,7 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto 0;
 }
 
 .footer__column_content_copyright {
@@ -304,24 +303,20 @@
 
 .footer__column-heading {
   line-height: 30px;
-  font-weight: bolder;
-  margin-bottom: 20px;
+  font-weight: 600;
+  margin: 0 0 20px;
 }
 
 .list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 0 16px;
 }
 
 .footer__column-links {
   color: #ffffff;
   text-decoration: none;
   line-height: 30px;
-}
-
-.footer__column-links:last-of-type {
-  margin-bottom: 16px;
 }
 
 .footer__social-icon {
