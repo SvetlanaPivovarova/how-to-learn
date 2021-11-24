@@ -1,0 +1,9 @@
+.resources__logo-link {
+  display: block;
+  opacity: 1;
+  transition: opacity .5s ease;
+}
+
+.resources__logo-link:hover {
+  opacity: 0.6;
+}
